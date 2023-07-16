@@ -1,25 +1,262 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./styles/app.css";
+import { SideBar } from "./components";
+import { StyledSideBar, StyledLayout, StyledMainLayout } from "./styles/App";
+
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Router>
+        <Routes>
+          <Route path="/overview/qwer1"></Route>
+          <Route path="/overview/qwer2"></Route>
+          <Route path="/qwer3"></Route>
+        </Routes>
+        <StyledLayout className="layout">
+          <StyledSideBar className="side-bar">
+            <SideBar />
+          </StyledSideBar>
+          <StyledMainLayout className="main-layout">
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+            <h1>Hello world</h1>
+          </StyledMainLayout>
+        </StyledLayout>
+      </Router>
+    </>
   );
 }
 

@@ -1,0 +1,73 @@
+
+html{
+    width: 100%;
+    height: 100%;
+}
+
+:root {
+    --background: #D3D9D9;
+    --white: #FFFFFF;
+
+    --primary: #005154;
+    --primary-light: #006c6c;
+
+    --green: #7ab78b;
+    --yellow: #fff485;
+    --orange: #ec8a65;
+
+    --green-line:#74bec2;
+    
+    --green-light: #8fc599;
+    --yellow-light: #fff49a;
+    --orange-light: #f19d7a;
+    --grey-light: #9b989f;
+
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  html {
+    @media (max-width: 1080px) {
+      font-size: 93.75%;
+    }
+    
+    @media (max-width: 720px) {
+      font-size: 87.5%;
+    }
+  }
+
+  body {
+    background: var(--background);
+    --webkit-font-smoothing: antialiased;
+  }
+
+  button {
+    cursor: pointer;
+  }
+
+  [disabled] {
+    opacity: 0.6;
+    cursor: not-allowed;
+  }
+
+  h1 .justify-content-center{
+    justify-content: center;
+  } 
+
+  body, html{
+    min-height: max-content;
+    height: 100%;
+  }
+  
+  #root{
+    height: 100%;
+    width: 100%;
+  }
+
+  h1{
+    display: contents;
+  }
